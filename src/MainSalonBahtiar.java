@@ -14,7 +14,19 @@ public class MainSalonBahtiar {
         SilverMembership silvermem = new SilverMembership(name, member, hargaJasa, hargaProduk);
         NonMember non = new NonMember(name, member, hargaJasa, hargaProduk);
         Scanner in = new Scanner(System.in);
-        
+        do {
+            System.out.println("\t====SALON KECANTIKAN BAFARCORP====");
+            System.out.println("Menu");
+            System.out.println("1. Premium Membership");
+            System.out.println("2. Gold Membership");
+            System.out.println("3. Silver Membership");
+            System.out.println("4. Non Membership");
+            System.out.println("5. Exit");
+            System.out.print("Masukkan pilihan  : ");
+            pil = in.nextInt();
+            System.out.println();
+            
+        } while (pil != 5);
     }
 
 }
