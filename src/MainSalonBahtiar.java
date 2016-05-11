@@ -44,9 +44,39 @@ public class MainSalonBahtiar {
                     System.out.println("");
                     break;
                 case 2:
-                    
+                    System.out.println("\t\t===GOLD MEMBERSHIP===");
+                    System.out.print("Nama Pelanggan                   :");
+                    name = in.next();
+                    System.out.print("Masukkan Harga Jasa Pelayanan    : ");
+                    hargaJasa = in.nextDouble();
+                    System.out.print("Masukkan Harga Produk Kecantikan : ");
+                    hargaProduk = in.nextDouble();
+                    goldmem.setNama(name);
+                    goldmem.setTariflayanan(hargaJasa);
+                    goldmem.setTarifproduk(hargaProduk);
+                    goldmem.tarifLayanan();
+                    goldmem.tarifProduk();
+                    System.out.println("");
+                    goldmem.displayMessage();
+                    System.out.println("");
+                    break;
                 case 3:
-                   
+                    System.out.println("\t\t===SILVER MEMBERSHIP===");
+                    System.out.print("Nama Pelanggan                   :");
+                    name = in.next();
+                    System.out.print("Masukkan Harga Jasa Pelayanan    : ");
+                    hargaJasa = in.nextDouble();
+                    System.out.print("Masukkan Harga Produk Kecantikan : ");
+                    hargaProduk = in.nextDouble();
+                    silvermem.setNama(name);
+                    silvermem.setTariflayanan(hargaJasa);
+                    silvermem.setTarifproduk(hargaProduk);
+                    silvermem.tarifLayanan();
+                    silvermem.tarifProduk();
+                    System.out.println("");
+                    silvermem.displayMessage();
+                    System.out.println("");
+                    break;
                 case 4:
                     System.out.println("\t\t===NON-MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
