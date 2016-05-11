@@ -7,7 +7,23 @@ public class SilverMembership extends AbstractMemberParent{
         super(nama,keanggotaan,tariflayanan,tarifproduk);
     }
 
-   
+    
+    
+    public String getNama() {
+        return nama;
+    }
+
+    public String getKeanggotaan() {
+        return keanggotaan;
+    }
+
+    public double getTariflayanan() {
+        return tariflayanan;
+    }
+
+    public double getTarifproduk() {
+        return tarifproduk;
+    }
 
     public void tarifLayanan(){
         double diskon = tariflayanan*0.1; //diskon untuk silvermembership 10%
