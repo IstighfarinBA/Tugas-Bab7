@@ -13,7 +13,7 @@ public abstract class AbstractMemberParent {
     public void setNama(String nama) {
         this.nama = nama;
     }
-
+	//pembuatan method getter
     public String getNama() {
         return nama;
     }
