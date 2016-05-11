@@ -41,5 +41,7 @@ public abstract class AbstractMemberParent {
     public double getTarifproduk() {
         return tarifproduk;
     }
-
+//pembuatan abstract method baru
+    public abstract void tarifLayanan();
+    public abstract void tarifProduk();
 }
