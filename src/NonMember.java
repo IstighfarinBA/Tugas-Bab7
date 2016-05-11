@@ -8,6 +8,25 @@ public class NonMember extends AbstractMemberParent {
         super(nama, keanggotaan, tariflayanan, tarifproduk);//pemanggilan attribut pada parent class
     }
 
+    public String getNama() {
+        return nama;
+    }
+
+    public void setKeanggotaan(String keanggotaan) {
+        this.keanggotaan = keanggotaan;
+    }
+
+    public String getKeanggotaan() {
+        return keanggotaan;
+    }
+
+    public double getTariflayanan() {
+        return tariflayanan;
+    }
+
+    public double getTarifproduk() {
+        return tarifproduk;
+    }
 
     public void tarifLayanan() {
         this.tariflayanan = tariflayanan;
