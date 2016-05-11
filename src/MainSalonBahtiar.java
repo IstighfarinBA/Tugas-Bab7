@@ -48,7 +48,22 @@ public class MainSalonBahtiar {
                 case 3:
                    
                 case 4:
-                   
+                    System.out.println("\t\t===NON-MEMBERSHIP===");
+                    System.out.print("Nama Pelanggan                   :");
+                    name = in.next();
+                    System.out.print("Masukkan Harga Jasa Pelayanan    : ");
+                    hargaJasa = in.nextDouble();
+                    System.out.print("Masukkan Harga Produk Kecantikan : ");
+                    hargaProduk = in.nextDouble();
+                    non.setNama(name);
+                    non.setTariflayanan(hargaJasa);
+                    non.setTarifproduk(hargaProduk);
+                    non.tarifLayanan();
+                    non.tarifProduk();
+                    System.out.println("");
+                    non.displayMessage();
+                    System.out.println("");
+                    break;
                 case 5:
                     System.out.println("\t====TERIMA KASIH ATAS KUNJUNGAN ANDA====");
                     break;
