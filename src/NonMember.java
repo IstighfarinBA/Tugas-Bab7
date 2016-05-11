@@ -41,4 +41,15 @@ public class NonMember extends AbstractMemberParent {
         return total = tariflayanan + tarifproduk;
     }
 
+    public void displayMessage() {
+        System.out.println("\t====NOTA PELANGGAN SALON BAFARCORP====");
+        System.out.println("Nama pelanggan            : " + nama);
+        System.out.println("Status membership         : Tidak Ada");
+        System.out.println("Biaya Jasa                : Rp " + tariflayanan);
+        System.out.println("Biaya Produk              : Rp " + tarifproduk);
+        System.out.println("=======================================");
+        System.out.println("TOTAL PEMBAYARAN          : Rp. " + TotalBiaya());
+        System.out.println();
+        System.out.println("=====TERIMA KASIH TELAH MENJADI PELANGGAN KAMI=====");
+    }
 }
