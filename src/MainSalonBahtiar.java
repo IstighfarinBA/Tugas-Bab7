@@ -25,7 +25,37 @@ public class MainSalonBahtiar {
             System.out.print("Masukkan pilihan  : ");
             pil = in.nextInt();
             System.out.println();
-            
+            switch (pil) {
+                case 1:
+                    System.out.println("\t\t===PREMIUM MEMBERSHIP===");
+                    System.out.print("Nama Pelanggan                   : ");
+                    name = in.next();
+                    System.out.print("Masukkan Harga Jasa Pelayanan    : ");
+                    hargaJasa = in.nextDouble();
+                    System.out.print("Masukkan Harga Produk Kecantikan : ");
+                    hargaProduk = in.nextDouble();
+                    premium.setNama(name);
+                    premium.setTariflayanan(hargaJasa);
+                    premium.setTarifproduk(hargaProduk);
+                    premium.tarifLayanan();
+                    premium.tarifProduk();
+                    System.out.println("");
+                    premium.displayMessage();
+                    System.out.println("");
+                    break;
+                case 2:
+                    
+                case 3:
+                   
+                case 4:
+                   
+                case 5:
+                    System.out.println("\t====TERIMA KASIH ATAS KUNJUNGAN ANDA====");
+                    break;
+                default:
+                    System.out.println("Masukkan Anda Salah,Tolong Coba Lagi..");
+
+            }
         } while (pil != 5);
     }
 
