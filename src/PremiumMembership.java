@@ -1,3 +1,4 @@
+//pembuatan class child dengan parent dari class AbstractMemberParent
 public class PremiumMembership extends AbstractMemberParent {
 
     private String keanggotaan;
