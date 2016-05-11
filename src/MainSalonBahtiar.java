@@ -28,6 +28,13 @@ public class MainSalonBahtiar {
             switch (pil) {
                 case 1:
 		    //case untuk kasus member Premium membership
+                    System.out.println("\t====LIST PRODUK KECANTIKAN KAMI===");
+                    System.out.println("\tShampo Creambath       Rp.200.000");
+                    System.out.println("\tLulur Ayu Kecantikan   Rp.400.000");
+                    System.out.println("\tPesona wangi parfum    Rp.100.000");
+                    System.out.println("\tPesona langsing suplm  Rp. 50.000");
+                    System.out.println("\tPitek Alami cantik     Rp. 25.000");
+                    System.out.println("");
                     System.out.println("\t\t===PREMIUM MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   : ");
                     name = in.next();
@@ -46,6 +53,13 @@ public class MainSalonBahtiar {
                     break;
                 case 2:
 		    //case untuk kasus member GOld membership
+                    System.out.println("\t====LIST PRODUK KECANTIKAN KAMI===");
+                    System.out.println("\tShampo Creambath       Rp.200.000");
+                    System.out.println("\tLulur Ayu Kecantikan   Rp.400.000");
+                    System.out.println("\tPesona wangi parfum    Rp.100.000");
+                    System.out.println("\tPesona langsing suplm  Rp. 50.000");
+                    System.out.println("\tPitek Alami cantik     Rp. 25.000");
+                    System.out.println("");
                     System.out.println("\t\t===GOLD MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
@@ -64,6 +78,13 @@ public class MainSalonBahtiar {
                     break;
                 case 3:
 		    //case untuk kasus member silver membership
+                    System.out.println("\t====LIST PRODUK KECANTIKAN KAMI===");
+                    System.out.println("\tShampo Creambath       Rp.200.000");
+                    System.out.println("\tLulur Ayu Kecantikan   Rp.400.000");
+                    System.out.println("\tPesona wangi parfum    Rp.100.000");
+                    System.out.println("\tPesona langsing suplm  Rp. 50.000");
+                    System.out.println("\tPitek Alami cantik     Rp. 25.000");
+                    System.out.println("");
                     System.out.println("\t\t===SILVER MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
@@ -82,6 +103,13 @@ public class MainSalonBahtiar {
                     break;
                 case 4:
 		    //untuk kasus non-member dan tanpa diskon 
+                    System.out.println("\t====LIST PRODUK KECANTIKAN KAMI===");
+                    System.out.println("\tShampo Creambath       Rp.200.000");
+                    System.out.println("\tLulur Ayu Kecantikan   Rp.400.000");
+                    System.out.println("\tPesona wangi parfum    Rp.100.000");
+                    System.out.println("\tPesona langsing suplm  Rp. 50.000");
+                    System.out.println("\tPitek Alami cantik     Rp. 25.000");
+                    System.out.println("");
                     System.out.println("\t\t===NON-MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
