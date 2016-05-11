@@ -27,6 +27,7 @@ public class MainSalonBahtiar {
             System.out.println();
             switch (pil) {
                 case 1:
+		    //case untuk kasus member Premium membership
                     System.out.println("\t\t===PREMIUM MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   : ");
                     name = in.next();
@@ -44,6 +45,7 @@ public class MainSalonBahtiar {
                     System.out.println("");
                     break;
                 case 2:
+		    //case untuk kasus member GOld membership
                     System.out.println("\t\t===GOLD MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
@@ -61,6 +63,7 @@ public class MainSalonBahtiar {
                     System.out.println("");
                     break;
                 case 3:
+		    //case untuk kasus member silver membership
                     System.out.println("\t\t===SILVER MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
@@ -78,6 +81,7 @@ public class MainSalonBahtiar {
                     System.out.println("");
                     break;
                 case 4:
+		    //untuk kasus non-member dan tanpa diskon 
                     System.out.println("\t\t===NON-MEMBERSHIP===");
                     System.out.print("Nama Pelanggan                   :");
                     name = in.next();
@@ -95,9 +99,11 @@ public class MainSalonBahtiar {
                     System.out.println("");
                     break;
                 case 5:
+		    //close program
                     System.out.println("\t====TERIMA KASIH ATAS KUNJUNGAN ANDA====");
                     break;
                 default:
+		    //jika tidak memenuhi masukan pada pilihan menu
                     System.out.println("Masukkan Anda Salah,Tolong Coba Lagi..");
 
             }
