@@ -8,7 +8,7 @@ public class SilverMembership extends AbstractMemberParent{
     }
 
     
-    
+    //pembuatan method getter baru
     public String getNama() {
         return nama;
     }

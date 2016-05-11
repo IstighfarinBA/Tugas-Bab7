@@ -14,6 +14,7 @@ public class GoldMembership extends AbstractMemberParent {
         double diskon = tarifproduk*0.1; //semua member mendapat diskon 10%
         tarifproduk-=diskon;
     }
+    //pembuatan method getter baru
     public String getKeanggotaan() {
         return member;
     }

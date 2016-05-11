@@ -7,7 +7,7 @@ public class PremiumMembership extends AbstractMemberParent {
     public PremiumMembership (String nama, String keanggotaan, double tariflayanan, double tarifproduk){
         super(nama,keanggotaan,tariflayanan,tarifproduk);//pemanggilan attribut dari super class
     }
-
+    //pembuatan method getter baru
     public String getNama() {
         return nama;
     }
